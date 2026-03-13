@@ -19,5 +19,6 @@ while True:
         if "/"in date:
             Month,day,year=date.split('/')
             print(f"{year}--{Month}--{day}")
-        if ","in date:
+        elif ","in date:
+            
             

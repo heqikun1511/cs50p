@@ -1,3 +1,5 @@
 import sys
-
-print("my name is",sys.argv[1])
+name=input('what is your name')
+file=open("name.txt","a")
+file.write(name)
+file.close()
